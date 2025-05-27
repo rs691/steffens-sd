@@ -24,7 +24,7 @@ export function Header() {
       <div className="container mx-auto flex h-20 items-center justify-between px-4">
         <Link href="/" className="flex items-center space-x-2" aria-label="Steffen's Showcase Home">
           <Logo />
-          <span className="font-bold text-xl text-primary hidden sm:inline-block">Steffen's Showcase</span>
+          <span className="font-bold text-xl text-primary hidden sm:inline-block">Steffens Sign & Design</span>
         </Link>
         
         <div className="hidden md:flex flex-col items-center">

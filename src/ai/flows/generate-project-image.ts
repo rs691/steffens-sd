@@ -41,6 +41,10 @@ const generateProjectImageFlow = ai.defineFlow(
       },
     });
 
-    return {imageUrl: media.url!};
+    if (!media || !media.url) {
+      throw new Error('Failed to generate image: media or media.url is null');
+    }
+
+    return {imageUrl: media.url};
   }
 );

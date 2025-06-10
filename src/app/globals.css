@@ -8,7 +8,7 @@ body {
 
 @layer base {
   :root {
-    --background: 60 67% 91%; /* Light Beige #F5F5DC */
+    --background: 39 24% 16%; /* Light Beige #F5F5DC */
     --foreground: 25 35% 25%; /* Dark Brown */
 
     --card: 60 50% 95%; /* Slightly Lighter Beige */
